@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May  8 21:01:15 2022
 
-@author: siddhardhan
+@author: rajeebrath
 """
 
 import pickle
@@ -23,7 +22,7 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
-    selected = option_menu('Multiple Disease Prediction System',
+    selected = option_menu('Disease Prediction System',
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
